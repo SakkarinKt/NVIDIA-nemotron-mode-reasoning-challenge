@@ -1,0 +1,36 @@
+# Data files — download from Kaggle directly
+data/raw/
+data/processed/
+*.csv
+
+# Submissions — generate locally, upload to Kaggle manually
+submissions/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+dist/
+build/
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
